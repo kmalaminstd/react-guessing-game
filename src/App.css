@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 50vw;
+    margin: 0 auto;
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    background-color: rgb(45, 164, 194);
+    margin-top: 20px;
+    padding: 12px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.remainchance{
+    margin-top: 20px;
+}
+
+.remainchance p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 20px;
+    width: 400px;
+}
+
+form input{
+    width: 70%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(45, 164, 194);
+    font-size: 18px;
+}
+
+form button{
+    width: 30%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid rgb(45, 164, 194);
+    background-color: rgb(45, 164, 194);
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.GameResult{
+    margin-top: 20px;
+}
+
+.GameResult #act-res{
+    margin-top: 8px;
+    
+    
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.right-res{
+    background-color: lightgreen;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.wrong-res{
+    background-color: red;
+    width: fit-content;
+    padding: 2px 5px;
+}
+
+.game-end-card{
+    background-color: #853a5d;
+    z-index: 9999;
+    height: 80vh;
+    width: 80vw;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.game-end-card button{
+    border: 1px solid rgb(45, 164, 194);
+    background-color: rgb(45, 164, 194);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 6px 10px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.rightscore, .wrongscore{
+    margin-top: 5px;
+}
+
+.roundres{
+    margin-top: 10px;
+    color: rgb(45, 164, 194);
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0.5px #000;
+}
+
+button:disabled, form input:disabled{
+    background-color: lightgray;
+    cursor: no-drop;
+}
